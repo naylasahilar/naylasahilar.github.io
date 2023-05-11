@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+:root {
+    --bg-color: #F9FBFE;
+    --secound-bg-color: #191919;
+    --text-color: #2B546A;
+    --secound-color: #c6c9d8bf;
+    --main-color: #30C8D6;
+}
+
+body {
+    font-family:  'Lato', sans-serif;
+    color: var(--bg-color);
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+nav {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    padding: 20px 0; 
+    color: var(--text-color);
+    height: 60px;
+    align-items: center;
+}
+
+nav .logo .fotologo {
+    width: 60px;
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 8%;
+    margin-left: -1800px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: #2B546A;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: 450;
+    font-size: 14px;
+}
+
+/* search */
+nav .searchicon{
+    color: #9EA0A3;         
+    margin-left: 90px;
+    position: absolute;
+}
+
+
+nav .search-box .search {
+    background-color: #E3EEFF;
+    width: 250px;
+    height: 35px;
+    margin-left: -1020px;
+    border-radius: 30px;
+    padding-left: 40px;
+    border: none;
+    color: #9EA0A3;
+    font-weight: 540;
+}
+
+
+/* HOME ARTIKEL */
+.container .contentartikel {
+    display: flex;
+    padding-top: 120px;
+}
+
+.container .contentartikel h1{
+    color: var(--text-color);
+    font-size: 64px;
+    line-height: 80px;
+    z-index: 999;
+}
+
+.container .contentartikel .fotosapi {
+    margin-left: 360px;
+    z-index: 999;
+}
+
+.container .contentartikel .ellipse {
+    position: absolute;
+    margin-left: 780px;
+    margin-top: 280px;
+}
+
+.container .contentartikel .ellipse5 {
+    position: absolute;
+    margin-left: -120px;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.container .contentartikel .garis1 {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 300px;
+}
+
+.container .contentartikel .garis2 {
+    position: absolute;
+    margin-left: 1250px;
+}
+
+/* SLIDER CRAOUSEL */
+.container .carousel {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .level {
+    margin-top: 120px;
+    margin-left: 140px;
+}
+
+.container .level .level-wrapper {
+    display: flex;
+}
+
+.container .level .level-wrapper img {
+    margin-top: -5px;
+    width: 44px;
+    height: 44px;
+}
+
+.container .level .level-wrapper p {
+    margin-left: 15px;
+    font-size: 20px;
+    color: #6783A0;
+}
+
+
+.container .title-artikel {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container .title-artikel .p-title {
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+
+.container .title-artikel p {
+    color: #6783A0;
+}
+
+.container .carousel .card {
+    width: 22%;
+    height: 380px;
+    margin: 40px;
+    border-radius: 0%;
+}
+
+.container .carousel .card .cardcontent {
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 8%;
+}
+
+.container .carousel .card .date {
+    font-size: 12px;
+    margin-top: 4px;
+    color: #838C73CC;
+}
+
+.container .carousel .card .paragraphcontent {
+    font-size: 14px;
+    margin-top: 4px;
+    color: #6783A0;
+}
+
+.container .carousel .card h5 {
+    font-size: 18px;
+    color: #2B546A;
+    font-weight: 450;
+}
+
+.container .carousel .card img {
+    width: 240px;
+    height: 140px;
+}
+
+.container .carousel .card .key {
+    position: absolute;
+    width: 100%;
+    height: 380px;
+    margin-top: -21px;
+    margin-left: -264px;
+}
+
+.container .carousel .card .button {
+    margin-top: 20px;
+}
+
+.container .carousel .card a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--text-color);
+    padding: 8px 50px 10px 50px;
+    border-radius: 100px;
+}
+
+/* FOOTER! */
+.container .imagebox {
+    margin-top: 80px;
+}
+
+.container .contentfoot {
+    display: flex;
+}
+
+.container .contentfooter {
+    margin-left: 350px;
+    margin-top: 80px;
+    display: flex;
+}
+
+
+.container .contentfooter .paragraph {
+    margin-top: 40px;
+}
+
+.container .row1 {  
+    margin-left: 80px;
+}
+
+.container .row1 .line{  
+    width: 50px;
+    height: 2px;
+    background-color: rgb(124, 124, 211);
+}
+
+.container .contentfooter p {
+    color: var();
+}

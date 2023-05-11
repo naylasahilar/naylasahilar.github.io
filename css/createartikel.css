@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #F9FBFE;
+    --secound-bg-color: #191919;
+    --text-color: #2B546A;
+    --secound-color: #c6c9d8bf;
+    --main-color: #30C8D6;
+}
+
+body {
+    font-family:  'Lato', sans-serif;
+    color: var(--bg-color);
+    overflow-x: hidden;
+    max-width: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.section {
+    height: 100vh;
+}
+
+/* HEADER */
+header {
+    background-color: rgb(255, 255, 255);
+    width: 2100%;
+    height: 150px;
+}
+
+header .content {
+    padding-top: 40px;
+    line-height: 12px;
+    margin-left: 120px;
+
+}
+
+header .content p {
+    color: var(--text-color);
+}
+
+header.content h4 {
+    color: var(--text-color);
+    margin-top: 20px        ;
+}
+
+header .content .line {
+    width: 220px;
+    height: 2px;
+    background-color: #E7E7E7;
+}
+
+/* browse foto */
+.container .wrapper-card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 450px;
+    padding-top: 80px;
+}
+
+.container .wrapper-card .card {
+    width: 40%;
+    height: 250px;
+    background-color: #E5E5E5;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.container .wrapper-card .card img {
+    width: 64px;
+    height: 54px;
+}
+
+.container .wrapper-card .card p {
+    margin-top: 22px;
+    color: #787878;
+}
+
+.container .card2 .button {
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+
+.container .card2 .button a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--text-color);
+    padding: 8px 50px 10px 50px;
+    border-radius: 100px;
+}
+
+.container .card2 {
+    margin-top: 40px;
+    width: 90%;
+    height: 650px;
+    margin-left: 5%;
+    background-color: #ffffff;
+    border-radius: 0%;
+}
+
+.container .card2 .input1 {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.container .card2 .input1 p {
+    color: #2B546A;
+    font-size: 20px;
+}
+
+.container .card2 .input1 input {
+    width: 90%;
+    border: 1px solid #34615F4D;
+    height: 40px;
+}
+
+.container .card2 .input1 .input2 {
+    width: 90%;
+    border: 1px solid #34615F4D;
+    height: 300px;
+}
+
+/* FOOTER! */
+.container .imagebox {
+    margin-top: 80px;
+}
+
+.container .contentfoot {
+    display: flex;
+}
+
+.container .contentfooter {
+    margin-left: 350px;
+    margin-top: 80px;
+    display: flex;
+}
+
+
+.container .contentfooter .paragraph {
+    margin-top: 40px;
+}
+
+.container .row1 {  
+    margin-left: 80px;
+}
+
+.container .row1 .line{  
+    width: 50px;
+    height: 2px;
+    background-color: rgb(124, 124, 211);
+}
+
+.container .contentfooter p {
+    color: var();
+}
